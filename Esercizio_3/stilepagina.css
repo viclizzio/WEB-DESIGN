@@ -1,0 +1,16 @@
+body{background-color: rgb(255, 180, 196);}
+
+img {
+    height: 35px;
+}
+
+h1 {
+    color: rgb(255, 87, 143);
+    font-size: 32px;
+}
+
+p{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
