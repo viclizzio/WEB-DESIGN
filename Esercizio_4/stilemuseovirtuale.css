@@ -1,18 +1,19 @@
-body {background-color: rgb(231, 216, 166);}
+body {background-color: rgb(231, 219, 166);}
 
 header {color: rgb(243, 117, 58);}
 
+body {font-family: Arial, Helvetica, sans-serif;}
+
 img {
     height: 400px;
-    margin: 50px;
+    margin: 15px;
     padding: 5px;
+    border: 3px solid black;
 }
-
-body {font-family: Arial, Helvetica, sans-serif;}
 
 p {
     font-size: 17px;
-    text-align: center;
+    text-align: justify;
     line-height: 1.5;
 }
 
