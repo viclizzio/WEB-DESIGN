@@ -8,8 +8,8 @@ img {
     width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
     main img{
-        width:49%;
+        width: 50px;
     }
 }
