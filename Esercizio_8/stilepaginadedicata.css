@@ -1,5 +1,25 @@
-    .creepster-regular {
-        font-family: "Creepster", system-ui;
-        font-weight: 400;
-        font-style: normal;
-      }
+h1 {
+    font-family: "Creepster", system-ui;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 62, 62);
+    }
+    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(46, 44, 41);
+    color: white;
+    text-align: justify;
+    margin: 50px;
+    }
+
+img {
+    width: 50%;
+    }
+
+a:hover {color: rgb(255, 255, 255);}
+a {color:rgb(255, 62, 62)}
+
+section, #tribute-link {
+    text-align: center;
+}
