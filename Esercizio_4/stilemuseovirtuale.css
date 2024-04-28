@@ -1,15 +1,14 @@
+* {font-family: Arial, Helvetica, sans-serif;}
+
 header {
     background-color: rgb(243, 117, 58);
     padding: 1px;
     margin: -10px;
 }
 
-h1, h2, p {margin-left: 20px;}
+h1, h2, p {margin: 20px;}
 
-body {
-    background-color: rgb(231, 219, 166);
-    font-family: Arial, Helvetica, sans-serif;
-}
+body {background-color: rgb(231, 219, 166);}
 
 p {
     font-size: 17px;
@@ -20,6 +19,7 @@ p {
 a, h1, #footer-text {
     color: rgb(255, 255, 255);
     text-align: center;
+    text-decoration: none;
 }
 
 a:hover {color: rgb(255, 251, 0);}
@@ -48,3 +48,47 @@ footer {
     padding: 5px;
     border: 3px solid rgb(243, 117, 58);
 }
+
+.grid-template-areas {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-areas:
+    ". img1 ."
+    "img2 img3 ."
+    ". . img4"
+    "img5 . ."
+    ". img6 .";
+}
+
+.img1 {
+    grid-area: img1;
+}
+.img2 {
+    grid-area: img2;
+}
+.img3 {
+    grid-area: img3;
+}
+.img4 {
+    grid-area: img4;
+}
+.img5 {
+    grid-area: img5;
+}
+.img6 {
+    grid-area: img6;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexbox img, .grid-template-areas img {
+    height: 400px;
+    margin: 10px;
+}
+
