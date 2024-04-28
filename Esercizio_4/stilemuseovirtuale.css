@@ -23,7 +23,7 @@ p {
     margin-bottom: 120px;
     margin-top: 120px;
     padding: 5px;
-    border: 3px solid black;
+    border: 3px solid rgb(243, 117, 58);
 }
 
 a, h1, #footer-text {
