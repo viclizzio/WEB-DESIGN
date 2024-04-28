@@ -17,15 +17,6 @@ p {
     line-height: 1.5;
 }
 
-.homepage img {
-    height: 400px;
-    margin: 15px;
-    margin-bottom: 120px;
-    margin-top: 120px;
-    padding: 5px;
-    border: 3px solid rgb(243, 117, 58);
-}
-
 a, h1, #footer-text {
     color: rgb(255, 255, 255);
     text-align: center;
@@ -44,3 +35,16 @@ footer {
     margin: -10px;
 }
 
+.homepage {
+    display: flex;
+    justify-content: center;
+}
+
+.homepage img {
+    height: 400px;
+    margin: 30px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    padding: 5px;
+    border: 3px solid rgb(243, 117, 58);
+}
