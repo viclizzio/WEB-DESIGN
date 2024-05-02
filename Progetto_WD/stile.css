@@ -357,7 +357,7 @@ footer {
     .container-contatti {
         display: grid;
         grid-template-columns: 71px 455px;
-        margin-top: 20px;
+        margin-left: 60px;
     }
     
     .container-contatti img {
